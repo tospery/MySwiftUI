@@ -5,6 +5,7 @@ use_frameworks!
 
 target 'MySwiftUI' do
   pod 'Parchment', '~> 4.0'
+  pod 'SwifterSwift', '~> 7.0.0'
 
 end
 

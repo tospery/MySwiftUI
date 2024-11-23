@@ -1,16 +1,50 @@
 PODS:
   - Parchment (4.1.0)
+  - SwifterSwift (7.0.0):
+    - SwifterSwift/AppKit (= 7.0.0)
+    - SwifterSwift/CoreAnimation (= 7.0.0)
+    - SwifterSwift/CoreGraphics (= 7.0.0)
+    - SwifterSwift/CoreLocation (= 7.0.0)
+    - SwifterSwift/CryptoKit (= 7.0.0)
+    - SwifterSwift/Dispatch (= 7.0.0)
+    - SwifterSwift/Foundation (= 7.0.0)
+    - SwifterSwift/HealthKit (= 7.0.0)
+    - SwifterSwift/MapKit (= 7.0.0)
+    - SwifterSwift/SceneKit (= 7.0.0)
+    - SwifterSwift/SpriteKit (= 7.0.0)
+    - SwifterSwift/StoreKit (= 7.0.0)
+    - SwifterSwift/SwiftStdlib (= 7.0.0)
+    - SwifterSwift/UIKit (= 7.0.0)
+    - SwifterSwift/WebKit (= 7.0.0)
+  - SwifterSwift/AppKit (7.0.0)
+  - SwifterSwift/CoreAnimation (7.0.0)
+  - SwifterSwift/CoreGraphics (7.0.0)
+  - SwifterSwift/CoreLocation (7.0.0)
+  - SwifterSwift/CryptoKit (7.0.0)
+  - SwifterSwift/Dispatch (7.0.0)
+  - SwifterSwift/Foundation (7.0.0)
+  - SwifterSwift/HealthKit (7.0.0)
+  - SwifterSwift/MapKit (7.0.0)
+  - SwifterSwift/SceneKit (7.0.0)
+  - SwifterSwift/SpriteKit (7.0.0)
+  - SwifterSwift/StoreKit (7.0.0)
+  - SwifterSwift/SwiftStdlib (7.0.0)
+  - SwifterSwift/UIKit (7.0.0)
+  - SwifterSwift/WebKit (7.0.0)
 
 DEPENDENCIES:
   - Parchment (~> 4.0)
+  - SwifterSwift (~> 7.0.0)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - Parchment
+    - SwifterSwift
 
 SPEC CHECKSUMS:
   Parchment: fdea264f5de6d73b0b69a31c686fab762c78ed2f
+  SwifterSwift: e9caf990fc72e835432280755d1f4c43f2a483d5
 
-PODFILE CHECKSUM: dc4e61f5e2471b43f3f4aedb5024883c8cd804d8
+PODFILE CHECKSUM: dc0e255a31b111d022ef0f95acc506f5eb0aff61
 
 COCOAPODS: 1.16.2

@@ -11,28 +11,12 @@ struct ContentView: View {
     var body: some View {
         NavigationStack {
             Form {
-                NavigationLink("三方库") { ThirdParty() }
-                NavigationLink("UI效果") { UIEffect() }
-//                Section("Device") {
-//                    NavigationLink("DeviceIdentifier") { MyDeviceIdentifier() }
-//                }
-//                Section("Lists") {
-//                    NavigationLink("ListActionRow") { MyListActionRow() }
-//                    NavigationLink("ListButtonGroup") { MyListButtonGroup() }
-//                    NavigationLink("ListButtonStyle") { MyListButtonStyle() }
-//                    NavigationLink("ListCard") { MyListCard() }
-//                    NavigationLink("ListDragHandle") { MyListDragHandle() }
-//                    NavigationLink("ListHeader") { MyListHeader() }
-//                    NavigationLink("ListSectionTitle") { MyListSectionTitle() }
-//                    NavigationLink("ListSelectItem") { MyListSelectItem() }
-//                    NavigationLink("ListShelfSection") { MyListShelfSection() }
-//                    NavigationLink("ListSubtitle") { MyListSubtitle() }
-//                }
-//                Section("Pages") {
-//                    NavigationLink("PageIndicator") { MyPageIndicator() }
-//                    NavigationLink("PageIndicatorStyle") { MyPageIndicatorStyle() }
-//                    NavigationLink("PageView") { MyPageView() }
-//                }
+                Section("颜色") {
+                    NavigationLink("系统内置的颜色") { Color01SystemScreen() }
+                }
+                Section("三方库") {
+                    NavigationLink("Parchment-4.1.0") { MyParchmentScreen() }
+                }
             }
             .navigationTitle("MySwiftUI")
             .navigationBarTitleDisplayMode(.inline)

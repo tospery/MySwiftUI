@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct MyParchment: View {
+struct MyParchmentScreen: View {
     
     var body: some View {
         List {

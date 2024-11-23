@@ -11,8 +11,6 @@
 		9117686B2CF18C0E00252AA2 /* MySwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911768682CF18C0E00252AA2 /* MySwiftUIApp.swift */; };
 		9117686C2CF18C0E00252AA2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 911768642CF18C0E00252AA2 /* Preview Assets.xcassets */; };
 		9117686D2CF18C0E00252AA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 911768662CF18C0E00252AA2 /* Assets.xcassets */; };
-		911768712CF18D2B00252AA2 /* ThirdParty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911768702CF18D2900252AA2 /* ThirdParty.swift */; };
-		911768732CF18D6200252AA2 /* UIEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911768722CF18D6100252AA2 /* UIEffect.swift */; };
 		9195ADC92CF1CB4800F3C018 /* LifecycleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9195ADC62CF1CB4800F3C018 /* LifecycleView.swift */; };
 		9195ADCA2CF1CB4800F3C018 /* CustomizedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9195ADC22CF1CB4800F3C018 /* CustomizedView.swift */; };
 		9195ADCB2CF1CB4800F3C018 /* DefaultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9195ADC32CF1CB4800F3C018 /* DefaultView.swift */; };
@@ -22,8 +20,9 @@
 		9195ADCF2CF1CB4800F3C018 /* InterpolatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9195ADC52CF1CB4800F3C018 /* InterpolatedView.swift */; };
 		9195ADD02CF1CB4800F3C018 /* CustomIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9195ADC12CF1CB4800F3C018 /* CustomIndicatorView.swift */; };
 		9195ADD12CF1CB4800F3C018 /* ScrollingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9195ADC72CF1CB4800F3C018 /* ScrollingView.swift */; };
-		9195ADD32CF1CB5000F3C018 /* MyParchment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9195ADD22CF1CB4E00F3C018 /* MyParchment.swift */; };
+		9195ADD32CF1CB5000F3C018 /* MyParchmentScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9195ADD22CF1CB4E00F3C018 /* MyParchmentScreen.swift */; };
 		91D788222CF1C38400D5B7A2 /* AxisSegmentedView in Frameworks */ = {isa = PBXBuildFile; productRef = 91D788212CF1C38400D5B7A2 /* AxisSegmentedView */; };
+		91E417572CF2832D00FA0C34 /* Color01SystemScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E417562CF2832B00FA0C34 /* Color01SystemScreen.swift */; };
 		A4F9C8F4FCE97E143AA5429C /* Pods_MySwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF29A8265306DC0FB4C146EE /* Pods_MySwiftUI.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,8 +32,6 @@
 		911768662CF18C0E00252AA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		911768672CF18C0E00252AA2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		911768682CF18C0E00252AA2 /* MySwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySwiftUIApp.swift; sourceTree = "<group>"; };
-		911768702CF18D2900252AA2 /* ThirdParty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdParty.swift; sourceTree = "<group>"; };
-		911768722CF18D6100252AA2 /* UIEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIEffect.swift; sourceTree = "<group>"; };
 		9195ADC02CF1CB4800F3C018 /* ChangeItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeItemsView.swift; sourceTree = "<group>"; };
 		9195ADC12CF1CB4800F3C018 /* CustomIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomIndicatorView.swift; sourceTree = "<group>"; };
 		9195ADC22CF1CB4800F3C018 /* CustomizedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizedView.swift; sourceTree = "<group>"; };
@@ -44,7 +41,8 @@
 		9195ADC62CF1CB4800F3C018 /* LifecycleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifecycleView.swift; sourceTree = "<group>"; };
 		9195ADC72CF1CB4800F3C018 /* ScrollingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollingView.swift; sourceTree = "<group>"; };
 		9195ADC82CF1CB4800F3C018 /* SelectedIndexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedIndexView.swift; sourceTree = "<group>"; };
-		9195ADD22CF1CB4E00F3C018 /* MyParchment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyParchment.swift; sourceTree = "<group>"; };
+		9195ADD22CF1CB4E00F3C018 /* MyParchmentScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyParchmentScreen.swift; sourceTree = "<group>"; };
+		91E417562CF2832B00FA0C34 /* Color01SystemScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color01SystemScreen.swift; sourceTree = "<group>"; };
 		ACA485D774A60E1CD5B089A7 /* Pods-MySwiftUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySwiftUI.release.xcconfig"; path = "Target Support Files/Pods-MySwiftUI/Pods-MySwiftUI.release.xcconfig"; sourceTree = "<group>"; };
 		F2E716356A3D240538F44F22 /* Pods-MySwiftUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySwiftUI.debug.xcconfig"; path = "Target Support Files/Pods-MySwiftUI/Pods-MySwiftUI.debug.xcconfig"; sourceTree = "<group>"; };
 		FF29A8265306DC0FB4C146EE /* Pods_MySwiftUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MySwiftUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -101,8 +99,8 @@
 		911768692CF18C0E00252AA2 /* MySwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				91E417532CF282BE00FA0C34 /* Color */,
 				9117686F2CF18D1B00252AA2 /* ThirdParty */,
-				9117686E2CF18D1500252AA2 /* UIEffect */,
 				911768652CF18C0E00252AA2 /* Preview Content */,
 				911768662CF18C0E00252AA2 /* Assets.xcassets */,
 				911768672CF18C0E00252AA2 /* ContentView.swift */,
@@ -111,20 +109,11 @@
 			path = MySwiftUI;
 			sourceTree = "<group>";
 		};
-		9117686E2CF18D1500252AA2 /* UIEffect */ = {
-			isa = PBXGroup;
-			children = (
-				911768722CF18D6100252AA2 /* UIEffect.swift */,
-			);
-			path = UIEffect;
-			sourceTree = "<group>";
-		};
 		9117686F2CF18D1B00252AA2 /* ThirdParty */ = {
 			isa = PBXGroup;
 			children = (
 				9195ADBF2CF1CAE100F3C018 /* Parchment */,
 				91D788232CF1C3BE00D5B7A2 /* AxisSegmentedView */,
-				911768702CF18D2900252AA2 /* ThirdParty.swift */,
 			);
 			path = ThirdParty;
 			sourceTree = "<group>";
@@ -132,7 +121,7 @@
 		9195ADBF2CF1CAE100F3C018 /* Parchment */ = {
 			isa = PBXGroup;
 			children = (
-				9195ADD22CF1CB4E00F3C018 /* MyParchment.swift */,
+				9195ADD22CF1CB4E00F3C018 /* MyParchmentScreen.swift */,
 				9195ADC02CF1CB4800F3C018 /* ChangeItemsView.swift */,
 				9195ADC12CF1CB4800F3C018 /* CustomIndicatorView.swift */,
 				9195ADC22CF1CB4800F3C018 /* CustomizedView.swift */,
@@ -151,6 +140,14 @@
 			children = (
 			);
 			path = AxisSegmentedView;
+			sourceTree = "<group>";
+		};
+		91E417532CF282BE00FA0C34 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				91E417562CF2832B00FA0C34 /* Color01SystemScreen.swift */,
+			);
+			path = Color;
 			sourceTree = "<group>";
 		};
 		EC33ECF9C31F62666FA0148B /* Frameworks */ = {
@@ -282,20 +279,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				911768732CF18D6200252AA2 /* UIEffect.swift in Sources */,
 				9195ADC92CF1CB4800F3C018 /* LifecycleView.swift in Sources */,
 				9195ADCA2CF1CB4800F3C018 /* CustomizedView.swift in Sources */,
 				9195ADCB2CF1CB4800F3C018 /* DefaultView.swift in Sources */,
+				91E417572CF2832D00FA0C34 /* Color01SystemScreen.swift in Sources */,
 				9195ADCC2CF1CB4800F3C018 /* SelectedIndexView.swift in Sources */,
 				9195ADCD2CF1CB4800F3C018 /* ChangeItemsView.swift in Sources */,
 				9195ADCE2CF1CB4800F3C018 /* DynamicItemsView.swift in Sources */,
 				9195ADCF2CF1CB4800F3C018 /* InterpolatedView.swift in Sources */,
 				9195ADD02CF1CB4800F3C018 /* CustomIndicatorView.swift in Sources */,
 				9195ADD12CF1CB4800F3C018 /* ScrollingView.swift in Sources */,
-				9195ADD32CF1CB5000F3C018 /* MyParchment.swift in Sources */,
+				9195ADD32CF1CB5000F3C018 /* MyParchmentScreen.swift in Sources */,
 				9117686A2CF18C0E00252AA2 /* ContentView.swift in Sources */,
 				9117686B2CF18C0E00252AA2 /* MySwiftUIApp.swift in Sources */,
-				911768712CF18D2B00252AA2 /* ThirdParty.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
