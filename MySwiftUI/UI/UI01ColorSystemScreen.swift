@@ -1,5 +1,5 @@
 //
-//  color01system.swift
+//  UI01ColorSystemScreen.swift
 //  MySwiftUI
 //
 //  Created by 杨建祥 on 2024/11/24.
@@ -8,7 +8,7 @@
 import SwiftUI
 import SwifterSwift
 
-struct Color01SystemScreen: View {
+struct UI01ColorSystemScreen: View {
     
     // @State private var isDarkMode = false
     @AppStorage("isDarkMode") private var isDarkMode = false

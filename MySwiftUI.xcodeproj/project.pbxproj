@@ -21,8 +21,9 @@
 		9195ADD02CF1CB4800F3C018 /* CustomIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9195ADC12CF1CB4800F3C018 /* CustomIndicatorView.swift */; };
 		9195ADD12CF1CB4800F3C018 /* ScrollingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9195ADC72CF1CB4800F3C018 /* ScrollingView.swift */; };
 		9195ADD32CF1CB5000F3C018 /* MyParchmentScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9195ADD22CF1CB4E00F3C018 /* MyParchmentScreen.swift */; };
+		91B3CC462CF291BC00C85D3F /* UI02FontSystemScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B3CC452CF291BC00C85D3F /* UI02FontSystemScreen.swift */; };
 		91D788222CF1C38400D5B7A2 /* AxisSegmentedView in Frameworks */ = {isa = PBXBuildFile; productRef = 91D788212CF1C38400D5B7A2 /* AxisSegmentedView */; };
-		91E417572CF2832D00FA0C34 /* Color01SystemScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E417562CF2832B00FA0C34 /* Color01SystemScreen.swift */; };
+		91E417572CF2832D00FA0C34 /* UI01ColorSystemScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E417562CF2832B00FA0C34 /* UI01ColorSystemScreen.swift */; };
 		A4F9C8F4FCE97E143AA5429C /* Pods_MySwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF29A8265306DC0FB4C146EE /* Pods_MySwiftUI.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,7 +43,8 @@
 		9195ADC72CF1CB4800F3C018 /* ScrollingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollingView.swift; sourceTree = "<group>"; };
 		9195ADC82CF1CB4800F3C018 /* SelectedIndexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedIndexView.swift; sourceTree = "<group>"; };
 		9195ADD22CF1CB4E00F3C018 /* MyParchmentScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyParchmentScreen.swift; sourceTree = "<group>"; };
-		91E417562CF2832B00FA0C34 /* Color01SystemScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color01SystemScreen.swift; sourceTree = "<group>"; };
+		91B3CC452CF291BC00C85D3F /* UI02FontSystemScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI02FontSystemScreen.swift; sourceTree = "<group>"; };
+		91E417562CF2832B00FA0C34 /* UI01ColorSystemScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI01ColorSystemScreen.swift; sourceTree = "<group>"; };
 		ACA485D774A60E1CD5B089A7 /* Pods-MySwiftUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySwiftUI.release.xcconfig"; path = "Target Support Files/Pods-MySwiftUI/Pods-MySwiftUI.release.xcconfig"; sourceTree = "<group>"; };
 		F2E716356A3D240538F44F22 /* Pods-MySwiftUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySwiftUI.debug.xcconfig"; path = "Target Support Files/Pods-MySwiftUI/Pods-MySwiftUI.debug.xcconfig"; sourceTree = "<group>"; };
 		FF29A8265306DC0FB4C146EE /* Pods_MySwiftUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MySwiftUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,7 +101,7 @@
 		911768692CF18C0E00252AA2 /* MySwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				91E417532CF282BE00FA0C34 /* Color */,
+				91E417532CF282BE00FA0C34 /* UI */,
 				9117686F2CF18D1B00252AA2 /* ThirdParty */,
 				911768652CF18C0E00252AA2 /* Preview Content */,
 				911768662CF18C0E00252AA2 /* Assets.xcassets */,
@@ -142,12 +144,13 @@
 			path = AxisSegmentedView;
 			sourceTree = "<group>";
 		};
-		91E417532CF282BE00FA0C34 /* Color */ = {
+		91E417532CF282BE00FA0C34 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				91E417562CF2832B00FA0C34 /* Color01SystemScreen.swift */,
+				91B3CC452CF291BC00C85D3F /* UI02FontSystemScreen.swift */,
+				91E417562CF2832B00FA0C34 /* UI01ColorSystemScreen.swift */,
 			);
-			path = Color;
+			path = UI;
 			sourceTree = "<group>";
 		};
 		EC33ECF9C31F62666FA0148B /* Frameworks */ = {
@@ -282,7 +285,8 @@
 				9195ADC92CF1CB4800F3C018 /* LifecycleView.swift in Sources */,
 				9195ADCA2CF1CB4800F3C018 /* CustomizedView.swift in Sources */,
 				9195ADCB2CF1CB4800F3C018 /* DefaultView.swift in Sources */,
-				91E417572CF2832D00FA0C34 /* Color01SystemScreen.swift in Sources */,
+				91E417572CF2832D00FA0C34 /* UI01ColorSystemScreen.swift in Sources */,
+				91B3CC462CF291BC00C85D3F /* UI02FontSystemScreen.swift in Sources */,
 				9195ADCC2CF1CB4800F3C018 /* SelectedIndexView.swift in Sources */,
 				9195ADCD2CF1CB4800F3C018 /* ChangeItemsView.swift in Sources */,
 				9195ADCE2CF1CB4800F3C018 /* DynamicItemsView.swift in Sources */,
