@@ -16,6 +16,9 @@ struct MySwiftUIApp: App {
         WindowGroup {
             ContentView()
                 .preferredColorScheme(isDarkMode ? .dark : .light)
+                .onOpenURL { url in
+                    print("onOpenURL: \(url)")
+                }
         }
     }
 }

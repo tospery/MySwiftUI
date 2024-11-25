@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		91048B9F2CF53A4E003EF90A /* MySwiftUIKitNavigationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91048B9E2CF53A4E003EF90A /* MySwiftUIKitNavigationScreen.swift */; };
+		91048BA12CF53A9C003EF90A /* MySwiftUIKitNavigationButtonScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91048BA02CF53A9B003EF90A /* MySwiftUIKitNavigationButtonScreen.swift */; };
+		91048BA32CF53B9B003EF90A /* MySwiftUIKitNavigationLinkArrowScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91048BA22CF53B9A003EF90A /* MySwiftUIKitNavigationLinkArrowScreen.swift */; };
+		91048BA62CF53C98003EF90A /* MySwiftUIKitStylesScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91048BA52CF53C95003EF90A /* MySwiftUIKitStylesScreen.swift */; };
+		91048BA82CF53CDE003EF90A /* MySwiftUIKitViewShadowStyleScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91048BA72CF53CDD003EF90A /* MySwiftUIKitViewShadowStyleScreen.swift */; };
+		91048BAB2CF53DD0003EF90A /* MySwiftUIKitTextScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91048BAA2CF53DD0003EF90A /* MySwiftUIKitTextScreen.swift */; };
+		91048BAD2CF53DFD003EF90A /* MySwiftUIKitLinkTextScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91048BAC2CF53DFC003EF90A /* MySwiftUIKitLinkTextScreen.swift */; };
+		91048BAF2CF53EF9003EF90A /* MySwiftUIKitTextEditorStyleScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91048BAE2CF53EF8003EF90A /* MySwiftUIKitTextEditorStyleScreen.swift */; };
+		91048BB12CF53FA0003EF90A /* MySwiftUIKitTextFieldClearButtonScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91048BB02CF53F9F003EF90A /* MySwiftUIKitTextFieldClearButtonScreen.swift */; };
 		9117686A2CF18C0E00252AA2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911768672CF18C0E00252AA2 /* ContentView.swift */; };
 		9117686B2CF18C0E00252AA2 /* MySwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911768682CF18C0E00252AA2 /* MySwiftUIApp.swift */; };
 		9117686C2CF18C0E00252AA2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 911768642CF18C0E00252AA2 /* Preview Assets.xcassets */; };
@@ -52,6 +61,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		91048B9E2CF53A4E003EF90A /* MySwiftUIKitNavigationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySwiftUIKitNavigationScreen.swift; sourceTree = "<group>"; };
+		91048BA02CF53A9B003EF90A /* MySwiftUIKitNavigationButtonScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySwiftUIKitNavigationButtonScreen.swift; sourceTree = "<group>"; };
+		91048BA22CF53B9A003EF90A /* MySwiftUIKitNavigationLinkArrowScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySwiftUIKitNavigationLinkArrowScreen.swift; sourceTree = "<group>"; };
+		91048BA52CF53C95003EF90A /* MySwiftUIKitStylesScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySwiftUIKitStylesScreen.swift; sourceTree = "<group>"; };
+		91048BA72CF53CDD003EF90A /* MySwiftUIKitViewShadowStyleScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySwiftUIKitViewShadowStyleScreen.swift; sourceTree = "<group>"; };
+		91048BAA2CF53DD0003EF90A /* MySwiftUIKitTextScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySwiftUIKitTextScreen.swift; sourceTree = "<group>"; };
+		91048BAC2CF53DFC003EF90A /* MySwiftUIKitLinkTextScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySwiftUIKitLinkTextScreen.swift; sourceTree = "<group>"; };
+		91048BAE2CF53EF8003EF90A /* MySwiftUIKitTextEditorStyleScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySwiftUIKitTextEditorStyleScreen.swift; sourceTree = "<group>"; };
+		91048BB02CF53F9F003EF90A /* MySwiftUIKitTextFieldClearButtonScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySwiftUIKitTextFieldClearButtonScreen.swift; sourceTree = "<group>"; };
 		911768532CF18C0800252AA2 /* MySwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		911768642CF18C0E00252AA2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		911768662CF18C0E00252AA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -120,6 +138,36 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		91048B9D2CF53A3A003EF90A /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				91048BA22CF53B9A003EF90A /* MySwiftUIKitNavigationLinkArrowScreen.swift */,
+				91048BA02CF53A9B003EF90A /* MySwiftUIKitNavigationButtonScreen.swift */,
+				91048B9E2CF53A4E003EF90A /* MySwiftUIKitNavigationScreen.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		91048BA42CF53C7B003EF90A /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				91048BA72CF53CDD003EF90A /* MySwiftUIKitViewShadowStyleScreen.swift */,
+				91048BA52CF53C95003EF90A /* MySwiftUIKitStylesScreen.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		91048BA92CF53DC0003EF90A /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				91048BB02CF53F9F003EF90A /* MySwiftUIKitTextFieldClearButtonScreen.swift */,
+				91048BAE2CF53EF8003EF90A /* MySwiftUIKitTextEditorStyleScreen.swift */,
+				91048BAC2CF53DFC003EF90A /* MySwiftUIKitLinkTextScreen.swift */,
+				91048BAA2CF53DD0003EF90A /* MySwiftUIKitTextScreen.swift */,
+			);
+			path = Text;
+			sourceTree = "<group>";
+		};
 		9117684A2CF18C0800252AA2 = {
 			isa = PBXGroup;
 			children = (
@@ -174,9 +222,12 @@
 		911B31012CF4C2970037A4B3 /* SwiftUIKit */ = {
 			isa = PBXGroup;
 			children = (
-				9186CC612CF5222800C51C77 /* Lists */,
+				91048BA92CF53DC0003EF90A /* Text */,
+				91048BA42CF53C7B003EF90A /* Styles */,
 				911B310C2CF4CB140037A4B3 /* Buttons */,
+				9186CC612CF5222800C51C77 /* Lists */,
 				911B31052CF4C75F0037A4B3 /* MySwiftUIKitScreen.swift */,
+				91048B9D2CF53A3A003EF90A /* Navigation */,
 			);
 			path = SwiftUIKit;
 			sourceTree = "<group>";
@@ -395,11 +446,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91048BA32CF53B9B003EF90A /* MySwiftUIKitNavigationLinkArrowScreen.swift in Sources */,
 				9186CC632CF5223D00C51C77 /* MySwiftUIKitListsScreen.swift in Sources */,
 				9195ADC92CF1CB4800F3C018 /* LifecycleView.swift in Sources */,
+				91048BAB2CF53DD0003EF90A /* MySwiftUIKitTextScreen.swift in Sources */,
 				9195ADCA2CF1CB4800F3C018 /* CustomizedView.swift in Sources */,
 				9186CC732CF527B900C51C77 /* MySwiftUIKitListsListSectionTitleScreen.swift in Sources */,
 				9186CC792CF529F800C51C77 /* MySwiftUIKitListsListSubtitleScreen.swift in Sources */,
+				91048BAF2CF53EF9003EF90A /* MySwiftUIKitTextEditorStyleScreen.swift in Sources */,
 				9186CC7B2CF52AA400C51C77 /* MySwiftUIKitListsReorderableForEachScreen.swift in Sources */,
 				9195ADCB2CF1CB4800F3C018 /* DefaultView.swift in Sources */,
 				9186CC6D2CF525CA00C51C77 /* MySwiftUIKitListsListCardScreen.swift in Sources */,
@@ -413,13 +467,16 @@
 				91C4655C2CF49FF30021562B /* UISafeAreaAnimationScreen.swift in Sources */,
 				9195ADCE2CF1CB4800F3C018 /* DynamicItemsView.swift in Sources */,
 				9186CC672CF522FC00C51C77 /* MySwiftUIKitListsListActionRowScreen.swift in Sources */,
+				91048BA82CF53CDE003EF90A /* MySwiftUIKitViewShadowStyleScreen.swift in Sources */,
 				91C465582CF49E3C0021562B /* UISafeAreaVerticalScreen.swift in Sources */,
 				9186CC712CF5270D00C51C77 /* MySwiftUIKitListsListHeaderScreen.swift in Sources */,
 				911B31102CF4CBBB0037A4B3 /* MySwiftUIKitButtonsStandardScreen.swift in Sources */,
 				9195ADCF2CF1CB4800F3C018 /* InterpolatedView.swift in Sources */,
 				91C4655A2CF49F530021562B /* UISafeAreaKeyboardScreen.swift in Sources */,
+				91048BA62CF53C98003EF90A /* MySwiftUIKitStylesScreen.swift in Sources */,
 				911B310E2CF4CB5B0037A4B3 /* MySwiftUIKitButtonsInitScreen.swift in Sources */,
 				9186CC772CF5291F00C51C77 /* MySwiftUIKitListsListShelfSectionScreen.swift in Sources */,
+				91048BB12CF53FA0003EF90A /* MySwiftUIKitTextFieldClearButtonScreen.swift in Sources */,
 				9186CC6F2CF5268B00C51C77 /* MySwiftUIKitListsListDragHandleScreen.swift in Sources */,
 				9186CC652CF5226A00C51C77 /* MySwiftUIKitListsListActionScreen.swift in Sources */,
 				9186CC6B2CF5250B00C51C77 /* MySwiftUIKitListsListButtonStyleScreen.swift in Sources */,
@@ -427,10 +484,13 @@
 				911B31042CF4C6460037A4B3 /* MyPulseScreen.swift in Sources */,
 				9195ADD12CF1CB4800F3C018 /* ScrollingView.swift in Sources */,
 				9195ADD32CF1CB5000F3C018 /* MyParchmentScreen.swift in Sources */,
+				91048BA12CF53A9C003EF90A /* MySwiftUIKitNavigationButtonScreen.swift in Sources */,
+				91048B9F2CF53A4E003EF90A /* MySwiftUIKitNavigationScreen.swift in Sources */,
 				9117686A2CF18C0E00252AA2 /* ContentView.swift in Sources */,
 				91C465532CF49C440021562B /* UISafeAreaScreen.swift in Sources */,
 				91C465562CF49D900021562B /* UISafeAreaFullScreen.swift in Sources */,
 				911B31062CF4C7600037A4B3 /* MySwiftUIKitScreen.swift in Sources */,
+				91048BAD2CF53DFD003EF90A /* MySwiftUIKitLinkTextScreen.swift in Sources */,
 				9117686B2CF18C0E00252AA2 /* MySwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

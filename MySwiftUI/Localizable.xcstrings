@@ -1,6 +1,9 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "" : {
+
+    },
     "【工具】SwiftUIKit-5.0.0" : {
 
     },
@@ -287,6 +290,9 @@
     "Lifecycle events" : {
 
     },
+    "LinkText" : {
+
+    },
     "ListAction" : {
 
     },
@@ -333,6 +339,15 @@
 
     },
     "MySwiftUIKitScreen" : {
+
+    },
+    "Navigation" : {
+
+    },
+    "NavigationButton" : {
+
+    },
+    "NavigationLinkArrow" : {
 
     },
     "Page %lld" : {
@@ -430,7 +445,6 @@
       }
     },
     "Preview.Link" : {
-      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -496,7 +510,6 @@
       }
     },
     "Preview.Placeholder" : {
-      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -548,7 +561,6 @@
       }
     },
     "Preview.Text" : {
-      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -589,7 +601,6 @@
       }
     },
     "Preview.Toggled.%lld" : {
-      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -612,6 +623,18 @@
 
     },
     "Standard" : {
+
+    },
+    "Styles" : {
+
+    },
+    "Text" : {
+
+    },
+    "TextEditorStyle" : {
+
+    },
+    "TextFieldClearButton" : {
 
     },
     "title - %lf" : {
@@ -687,6 +710,9 @@
 
     },
     "UIColor.tintColor-%@" : {
+
+    },
+    "ViewShadowStyle" : {
 
     },
     "三方库" : {
