@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-import SwiftUIKit_Hi
 
 struct MySwiftUIKitButtonsScreen: View {
     

@@ -1,22 +1,26 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
-    "" : {
+    "【工具】SwiftUIKit-5.0.0" : {
 
     },
-    " " : {
+    "【日志】Pulse-4.2.7" : {
 
     },
-    "%@" : {
+    "**Welcome to Parchment**. These examples shows how to use Parchment with SwiftUI. For more advanced examples, see the UIKit examples or reach out on GitHub Discussions." : {
 
     },
     "%lld" : {
 
     },
-    "1" : {
+    "body - %lf" : {
+
+    },
+    "Bundle" : {
 
     },
     "Button.Add" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -27,6 +31,7 @@
       }
     },
     "Button.AddFavorite" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -37,6 +42,7 @@
       }
     },
     "Button.AddToFavorites" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -47,6 +53,7 @@
       }
     },
     "Button.Call" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -57,6 +64,7 @@
       }
     },
     "Button.Cancel" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -67,6 +75,7 @@
       }
     },
     "Button.Copy" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -77,6 +86,7 @@
       }
     },
     "Button.Delete" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -87,6 +97,7 @@
       }
     },
     "Button.Deselect" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -97,6 +108,7 @@
       }
     },
     "Button.Done" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -107,6 +119,7 @@
       }
     },
     "Button.Edit" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -117,6 +130,7 @@
       }
     },
     "Button.Email" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -127,6 +141,7 @@
       }
     },
     "Button.OK" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -137,6 +152,7 @@
       }
     },
     "Button.Paste" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -147,6 +163,7 @@
       }
     },
     "Button.RemoveFavorite" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -157,6 +174,7 @@
       }
     },
     "Button.RemoveFromFavorites" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -167,6 +185,7 @@
       }
     },
     "Button.Select" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -177,6 +196,7 @@
       }
     },
     "Button.Share" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -186,8 +206,169 @@
         }
       }
     },
+    "Buttons" : {
+
+    },
+    "callout - %lf" : {
+
+    },
+    "caption - %lf" : {
+
+    },
+    "caption2 - %lf" : {
+
+    },
+    "Change items" : {
+
+    },
+    "Change selected index" : {
+
+    },
+    "Cinnamon Roll" : {
+
+    },
+    "Click me" : {
+
+    },
+    "Color.accentColor" : {
+
+    },
+    "Color.primary" : {
+
+    },
+    "Color.secondary" : {
+
+    },
+    "Console" : {
+
+    },
+    "Croissant" : {
+
+    },
+    "Custom indicator" : {
+
+    },
+    "Customized" : {
+
+    },
+    "Default" : {
+
+    },
+    "Dismiss" : {
+
+    },
+    "Dynamic items" : {
+
+    },
+    "Enter text" : {
+
+    },
+    "footnote - %lf" : {
+
+    },
+    "Growing" : {
+
+    },
+    "headline - %lf" : {
+
+    },
+    "Hello, World!" : {
+
+    },
+    "Init" : {
+
+    },
+    "Interpolated" : {
+
+    },
+    "largeTitle - %lf" : {
+
+    },
+    "Lifecycle events" : {
+
+    },
+    "ListAction" : {
+
+    },
+    "ListActionRow" : {
+
+    },
+    "ListButtonGroup" : {
+
+    },
+    "ListButtonStyle" : {
+
+    },
+    "ListCard" : {
+
+    },
+    "ListDragHandle" : {
+
+    },
+    "ListHeader" : {
+
+    },
+    "Lists" : {
+
+    },
+    "ListSectionTitle" : {
+
+    },
+    "ListSelectItem" : {
+
+    },
+    "ListShelfSection" : {
+
+    },
+    "ListSubtitle" : {
+
+    },
+    "Muffin" : {
+
+    },
+    "MyPulseScreen" : {
+
+    },
+    "MySwiftUI" : {
+
+    },
+    "MySwiftUIKitScreen" : {
+
+    },
+    "Page %lld" : {
+
+    },
+    "Page 0" : {
+
+    },
+    "Page 1" : {
+
+    },
+    "Page 2" : {
+
+    },
+    "Page 3" : {
+
+    },
+    "Page 4" : {
+
+    },
+    "Page 5" : {
+
+    },
+    "Page 6" : {
+
+    },
+    "Page 7" : {
+
+    },
+    "Parchment" : {
+
+    },
+    "Parchment-4.1.0" : {
+
+    },
     "Preview.Button" : {
-      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -198,7 +379,6 @@
       }
     },
     "Preview.Button.%lld" : {
-      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -220,7 +400,6 @@
       }
     },
     "Preview.Item" : {
-      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -231,7 +410,6 @@
       }
     },
     "Preview.Item.%lld" : {
-      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -242,7 +420,6 @@
       }
     },
     "Preview.Label" : {
-      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -308,6 +485,7 @@
       }
     },
     "Preview.Page.%@" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -340,7 +518,6 @@
       }
     },
     "Preview.Row" : {
-      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -351,7 +528,6 @@
       }
     },
     "Preview.SectionTitle" : {
-      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -362,7 +538,6 @@
       }
     },
     "Preview.Subtitle" : {
-      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -384,7 +559,6 @@
       }
     },
     "Preview.Text.%lld" : {
-      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -395,7 +569,6 @@
       }
     },
     "Preview.Text.Long" : {
-      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -406,7 +579,6 @@
       }
     },
     "Preview.Title.%lld" : {
-      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -426,6 +598,126 @@
           }
         }
       }
+    },
+    "ReorderableForEach" : {
+
+    },
+    "Rotate" : {
+
+    },
+    "Scone" : {
+
+    },
+    "Scrolling Views" : {
+
+    },
+    "Standard" : {
+
+    },
+    "title - %lf" : {
+
+    },
+    "title2 - %lf" : {
+
+    },
+    "title3 - %lf" : {
+
+    },
+    "Toggle" : {
+
+    },
+    "Tracking" : {
+
+    },
+    "UIColor.darkText-%@" : {
+
+    },
+    "UIColor.label-%@" : {
+
+    },
+    "UIColor.lightText-%@" : {
+
+    },
+    "UIColor.opaqueSeparator-%@" : {
+
+    },
+    "UIColor.placeholderText-%@" : {
+
+    },
+    "UIColor.quaternaryLabel-%@" : {
+
+    },
+    "UIColor.quaternarySystemFill-%@" : {
+
+    },
+    "UIColor.secondaryLabel-%@" : {
+
+    },
+    "UIColor.secondarySystemBackground-%@" : {
+
+    },
+    "UIColor.secondarySystemFill-%@" : {
+
+    },
+    "UIColor.secondarySystemGroupedBackground-%@" : {
+
+    },
+    "UIColor.separator-%@" : {
+
+    },
+    "UIColor.systemBackground-%@" : {
+
+    },
+    "UIColor.systemFill-%@" : {
+
+    },
+    "UIColor.systemGroupedBackground-%@" : {
+
+    },
+    "UIColor.tertiaryLabel-%@" : {
+
+    },
+    "UIColor.tertiarySystemBackground-%@" : {
+
+    },
+    "UIColor.tertiarySystemFill-%@" : {
+
+    },
+    "UIColor.tertiarySystemGroupedBackground-%@" : {
+
+    },
+    "UIColor.tintColor-%@" : {
+
+    },
+    "三方库" : {
+
+    },
+    "与键盘的交互" : {
+
+    },
+    "内置字体与大小" : {
+
+    },
+    "动画过渡中使用" : {
+
+    },
+    "单独忽略顶部或底部安全区域" : {
+
+    },
+    "演示ignoresSafeArea" : {
+
+    },
+    "界面" : {
+
+    },
+    "系统内置的颜色" : {
+
+    },
+    "背景视图全屏显示" : {
+
+    },
+    "配合全屏模态视图" : {
+
     }
   },
   "version" : "1.0"

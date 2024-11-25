@@ -34,14 +34,14 @@ PODS:
   - SwifterSwift/SwiftStdlib (7.0.0)
   - SwifterSwift/UIKit (7.0.0)
   - SwifterSwift/WebKit (7.0.0)
-  - SwiftUIKit-Hi (5.0.0-v2)
+  - SwiftUIKit-Hi (5.0.0.1)
 
 DEPENDENCIES:
   - Parchment (~> 4.0)
   - PulseCore (~> 4.2.7)
   - PulseUI (~> 4.2.7)
   - SwifterSwift (~> 7.0.0)
-  - SwiftUIKit-Hi (= 5.0.0-v2)
+  - SwiftUIKit-Hi (~> 5.0.0)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
@@ -56,8 +56,8 @@ SPEC CHECKSUMS:
   PulseCore: 812f6814b174a27d8b99eced5df7da12b0d8a700
   PulseUI: ae92dca925635b516600c0550c2a3079c0b28158
   SwifterSwift: e9caf990fc72e835432280755d1f4c43f2a483d5
-  SwiftUIKit-Hi: 3587728b5152e4eafa9c25531003d20cc656e3a7
+  SwiftUIKit-Hi: 43b5df4f366354f37deacfe77477113f6b4f47c6
 
-PODFILE CHECKSUM: 22b0be989f2465cda69ba3266867fad88445b543
+PODFILE CHECKSUM: f4c0b1f93977ff3cc83c9641ec4687c21e4da1b5
 
 COCOAPODS: 1.16.2
