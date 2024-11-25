@@ -6,6 +6,9 @@ use_frameworks!
 target 'MySwiftUI' do
   pod 'Parchment', '~> 4.0'
   pod 'SwifterSwift', '~> 7.0.0'
+  pod 'SwiftUIKit-Hi', '5.0.0-v2'
+  pod 'PulseCore', '~> 4.2.7'
+  pod 'PulseUI', '~> 4.2.7'
 
 end
 

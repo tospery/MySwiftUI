@@ -1,0 +1,6 @@
+framework module PulseUI {
+  umbrella header "PulseUI-umbrella.h"
+
+  export *
+  module * { export * }
+}

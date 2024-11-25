@@ -17,6 +17,8 @@ struct ContentView: View {
                     NavigationLink("演示ignoresSafeArea") { UISafeAreaScreen() }
                 }
                 Section("三方库") {
+                    NavigationLink("【日志】Pulse-4.2.7") { MyPulseScreen() }
+                    NavigationLink("【工具】SwiftUIKit-5.0.0") { MySwiftUIKitScreen() }
                     NavigationLink("Parchment-4.1.0") { MyParchmentScreen() }
                 }
             }

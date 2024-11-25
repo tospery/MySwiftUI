@@ -1,0 +1,6 @@
+framework module Pulse {
+  umbrella header "PulseCore-umbrella.h"
+
+  export *
+  module * { export * }
+}
