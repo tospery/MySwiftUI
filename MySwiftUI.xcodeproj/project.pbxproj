@@ -22,6 +22,11 @@
 		9195ADD12CF1CB4800F3C018 /* ScrollingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9195ADC72CF1CB4800F3C018 /* ScrollingView.swift */; };
 		9195ADD32CF1CB5000F3C018 /* MyParchmentScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9195ADD22CF1CB4E00F3C018 /* MyParchmentScreen.swift */; };
 		91B3CC462CF291BC00C85D3F /* UI02FontSystemScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B3CC452CF291BC00C85D3F /* UI02FontSystemScreen.swift */; };
+		91C465532CF49C440021562B /* UISafeAreaScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C465522CF49C430021562B /* UISafeAreaScreen.swift */; };
+		91C465562CF49D900021562B /* UISafeAreaFullScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C465552CF49D8F0021562B /* UISafeAreaFullScreen.swift */; };
+		91C465582CF49E3C0021562B /* UISafeAreaVerticalScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C465572CF49E3B0021562B /* UISafeAreaVerticalScreen.swift */; };
+		91C4655A2CF49F530021562B /* UISafeAreaKeyboardScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C465592CF49F520021562B /* UISafeAreaKeyboardScreen.swift */; };
+		91C4655C2CF49FF30021562B /* UISafeAreaAnimationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C4655B2CF49FF10021562B /* UISafeAreaAnimationScreen.swift */; };
 		91D788222CF1C38400D5B7A2 /* AxisSegmentedView in Frameworks */ = {isa = PBXBuildFile; productRef = 91D788212CF1C38400D5B7A2 /* AxisSegmentedView */; };
 		91E417572CF2832D00FA0C34 /* UI01ColorSystemScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E417562CF2832B00FA0C34 /* UI01ColorSystemScreen.swift */; };
 		A4F9C8F4FCE97E143AA5429C /* Pods_MySwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF29A8265306DC0FB4C146EE /* Pods_MySwiftUI.framework */; };
@@ -44,6 +49,11 @@
 		9195ADC82CF1CB4800F3C018 /* SelectedIndexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedIndexView.swift; sourceTree = "<group>"; };
 		9195ADD22CF1CB4E00F3C018 /* MyParchmentScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyParchmentScreen.swift; sourceTree = "<group>"; };
 		91B3CC452CF291BC00C85D3F /* UI02FontSystemScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI02FontSystemScreen.swift; sourceTree = "<group>"; };
+		91C465522CF49C430021562B /* UISafeAreaScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISafeAreaScreen.swift; sourceTree = "<group>"; };
+		91C465552CF49D8F0021562B /* UISafeAreaFullScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISafeAreaFullScreen.swift; sourceTree = "<group>"; };
+		91C465572CF49E3B0021562B /* UISafeAreaVerticalScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISafeAreaVerticalScreen.swift; sourceTree = "<group>"; };
+		91C465592CF49F520021562B /* UISafeAreaKeyboardScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISafeAreaKeyboardScreen.swift; sourceTree = "<group>"; };
+		91C4655B2CF49FF10021562B /* UISafeAreaAnimationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISafeAreaAnimationScreen.swift; sourceTree = "<group>"; };
 		91E417562CF2832B00FA0C34 /* UI01ColorSystemScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI01ColorSystemScreen.swift; sourceTree = "<group>"; };
 		ACA485D774A60E1CD5B089A7 /* Pods-MySwiftUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySwiftUI.release.xcconfig"; path = "Target Support Files/Pods-MySwiftUI/Pods-MySwiftUI.release.xcconfig"; sourceTree = "<group>"; };
 		F2E716356A3D240538F44F22 /* Pods-MySwiftUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySwiftUI.debug.xcconfig"; path = "Target Support Files/Pods-MySwiftUI/Pods-MySwiftUI.debug.xcconfig"; sourceTree = "<group>"; };
@@ -137,6 +147,18 @@
 			path = Parchment;
 			sourceTree = "<group>";
 		};
+		91C465542CF49CE80021562B /* SafeArea */ = {
+			isa = PBXGroup;
+			children = (
+				91C4655B2CF49FF10021562B /* UISafeAreaAnimationScreen.swift */,
+				91C465592CF49F520021562B /* UISafeAreaKeyboardScreen.swift */,
+				91C465572CF49E3B0021562B /* UISafeAreaVerticalScreen.swift */,
+				91C465552CF49D8F0021562B /* UISafeAreaFullScreen.swift */,
+				91C465522CF49C430021562B /* UISafeAreaScreen.swift */,
+			);
+			path = SafeArea;
+			sourceTree = "<group>";
+		};
 		91D788232CF1C3BE00D5B7A2 /* AxisSegmentedView */ = {
 			isa = PBXGroup;
 			children = (
@@ -147,6 +169,7 @@
 		91E417532CF282BE00FA0C34 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				91C465542CF49CE80021562B /* SafeArea */,
 				91B3CC452CF291BC00C85D3F /* UI02FontSystemScreen.swift */,
 				91E417562CF2832B00FA0C34 /* UI01ColorSystemScreen.swift */,
 			);
@@ -289,12 +312,17 @@
 				91B3CC462CF291BC00C85D3F /* UI02FontSystemScreen.swift in Sources */,
 				9195ADCC2CF1CB4800F3C018 /* SelectedIndexView.swift in Sources */,
 				9195ADCD2CF1CB4800F3C018 /* ChangeItemsView.swift in Sources */,
+				91C4655C2CF49FF30021562B /* UISafeAreaAnimationScreen.swift in Sources */,
 				9195ADCE2CF1CB4800F3C018 /* DynamicItemsView.swift in Sources */,
+				91C465582CF49E3C0021562B /* UISafeAreaVerticalScreen.swift in Sources */,
 				9195ADCF2CF1CB4800F3C018 /* InterpolatedView.swift in Sources */,
+				91C4655A2CF49F530021562B /* UISafeAreaKeyboardScreen.swift in Sources */,
 				9195ADD02CF1CB4800F3C018 /* CustomIndicatorView.swift in Sources */,
 				9195ADD12CF1CB4800F3C018 /* ScrollingView.swift in Sources */,
 				9195ADD32CF1CB5000F3C018 /* MyParchmentScreen.swift in Sources */,
 				9117686A2CF18C0E00252AA2 /* ContentView.swift in Sources */,
+				91C465532CF49C440021562B /* UISafeAreaScreen.swift in Sources */,
+				91C465562CF49D900021562B /* UISafeAreaFullScreen.swift in Sources */,
 				9117686B2CF18C0E00252AA2 /* MySwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
