@@ -28,6 +28,7 @@ struct MySwiftUIKitScreen: View {
             NavigationLink("Lists") { MySwiftUIKitListsScreen() }
             NavigationLink("Styles") { MySwiftUIKitStylesScreen() }
             NavigationLink("Text") { MySwiftUIKitTextScreen() }
+            NavigationLink("Views") { MySwiftUIKitViewsScreen() }
         }
         .navigationTitle("MySwiftUIKitScreen")
         .navigationBarTitleDisplayMode(.inline)

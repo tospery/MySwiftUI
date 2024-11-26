@@ -16,6 +16,10 @@
 		91048BAD2CF53DFD003EF90A /* MySwiftUIKitLinkTextScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91048BAC2CF53DFC003EF90A /* MySwiftUIKitLinkTextScreen.swift */; };
 		91048BAF2CF53EF9003EF90A /* MySwiftUIKitTextEditorStyleScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91048BAE2CF53EF8003EF90A /* MySwiftUIKitTextEditorStyleScreen.swift */; };
 		91048BB12CF53FA0003EF90A /* MySwiftUIKitTextFieldClearButtonScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91048BB02CF53F9F003EF90A /* MySwiftUIKitTextFieldClearButtonScreen.swift */; };
+		91048BB42CF54E80003EF90A /* MySwiftUIKitViewsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91048BB32CF54E80003EF90A /* MySwiftUIKitViewsScreen.swift */; };
+		91048BB62CF54EC2003EF90A /* MySwiftUIKitCustomRoundedRectangleScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91048BB52CF54EC1003EF90A /* MySwiftUIKitCustomRoundedRectangleScreen.swift */; };
+		91048BB82CF54F15003EF90A /* MySwiftUIKitFetchedDataViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91048BB72CF54F14003EF90A /* MySwiftUIKitFetchedDataViewScreen.swift */; };
+		91048BBA2CF54FA2003EF90A /* MySwiftUIKitTextReplacementScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91048BB92CF54FA1003EF90A /* MySwiftUIKitTextReplacementScreen.swift */; };
 		9117686A2CF18C0E00252AA2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911768672CF18C0E00252AA2 /* ContentView.swift */; };
 		9117686B2CF18C0E00252AA2 /* MySwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911768682CF18C0E00252AA2 /* MySwiftUIApp.swift */; };
 		9117686C2CF18C0E00252AA2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 911768642CF18C0E00252AA2 /* Preview Assets.xcassets */; };
@@ -70,6 +74,10 @@
 		91048BAC2CF53DFC003EF90A /* MySwiftUIKitLinkTextScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySwiftUIKitLinkTextScreen.swift; sourceTree = "<group>"; };
 		91048BAE2CF53EF8003EF90A /* MySwiftUIKitTextEditorStyleScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySwiftUIKitTextEditorStyleScreen.swift; sourceTree = "<group>"; };
 		91048BB02CF53F9F003EF90A /* MySwiftUIKitTextFieldClearButtonScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySwiftUIKitTextFieldClearButtonScreen.swift; sourceTree = "<group>"; };
+		91048BB32CF54E80003EF90A /* MySwiftUIKitViewsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySwiftUIKitViewsScreen.swift; sourceTree = "<group>"; };
+		91048BB52CF54EC1003EF90A /* MySwiftUIKitCustomRoundedRectangleScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySwiftUIKitCustomRoundedRectangleScreen.swift; sourceTree = "<group>"; };
+		91048BB72CF54F14003EF90A /* MySwiftUIKitFetchedDataViewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySwiftUIKitFetchedDataViewScreen.swift; sourceTree = "<group>"; };
+		91048BB92CF54FA1003EF90A /* MySwiftUIKitTextReplacementScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySwiftUIKitTextReplacementScreen.swift; sourceTree = "<group>"; };
 		911768532CF18C0800252AA2 /* MySwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		911768642CF18C0E00252AA2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		911768662CF18C0E00252AA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -168,6 +176,17 @@
 			path = Text;
 			sourceTree = "<group>";
 		};
+		91048BB22CF54E73003EF90A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				91048BB92CF54FA1003EF90A /* MySwiftUIKitTextReplacementScreen.swift */,
+				91048BB72CF54F14003EF90A /* MySwiftUIKitFetchedDataViewScreen.swift */,
+				91048BB52CF54EC1003EF90A /* MySwiftUIKitCustomRoundedRectangleScreen.swift */,
+				91048BB32CF54E80003EF90A /* MySwiftUIKitViewsScreen.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		9117684A2CF18C0800252AA2 = {
 			isa = PBXGroup;
 			children = (
@@ -222,6 +241,7 @@
 		911B31012CF4C2970037A4B3 /* SwiftUIKit */ = {
 			isa = PBXGroup;
 			children = (
+				91048BB22CF54E73003EF90A /* Views */,
 				91048BA92CF53DC0003EF90A /* Text */,
 				91048BA42CF53C7B003EF90A /* Styles */,
 				911B310C2CF4CB140037A4B3 /* Buttons */,
@@ -446,8 +466,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91048BB42CF54E80003EF90A /* MySwiftUIKitViewsScreen.swift in Sources */,
 				91048BA32CF53B9B003EF90A /* MySwiftUIKitNavigationLinkArrowScreen.swift in Sources */,
 				9186CC632CF5223D00C51C77 /* MySwiftUIKitListsScreen.swift in Sources */,
+				91048BB62CF54EC2003EF90A /* MySwiftUIKitCustomRoundedRectangleScreen.swift in Sources */,
 				9195ADC92CF1CB4800F3C018 /* LifecycleView.swift in Sources */,
 				91048BAB2CF53DD0003EF90A /* MySwiftUIKitTextScreen.swift in Sources */,
 				9195ADCA2CF1CB4800F3C018 /* CustomizedView.swift in Sources */,
@@ -462,6 +484,7 @@
 				91B3CC462CF291BC00C85D3F /* UI02FontSystemScreen.swift in Sources */,
 				9186CC692CF523A200C51C77 /* MySwiftUIKitListsListButtonGroupScreen.swift in Sources */,
 				911B310B2CF4CAF90037A4B3 /* MySwiftUIKitButtonsScreen.swift in Sources */,
+				91048BBA2CF54FA2003EF90A /* MySwiftUIKitTextReplacementScreen.swift in Sources */,
 				9195ADCC2CF1CB4800F3C018 /* SelectedIndexView.swift in Sources */,
 				9195ADCD2CF1CB4800F3C018 /* ChangeItemsView.swift in Sources */,
 				91C4655C2CF49FF30021562B /* UISafeAreaAnimationScreen.swift in Sources */,
@@ -476,6 +499,7 @@
 				91048BA62CF53C98003EF90A /* MySwiftUIKitStylesScreen.swift in Sources */,
 				911B310E2CF4CB5B0037A4B3 /* MySwiftUIKitButtonsInitScreen.swift in Sources */,
 				9186CC772CF5291F00C51C77 /* MySwiftUIKitListsListShelfSectionScreen.swift in Sources */,
+				91048BB82CF54F15003EF90A /* MySwiftUIKitFetchedDataViewScreen.swift in Sources */,
 				91048BB12CF53FA0003EF90A /* MySwiftUIKitTextFieldClearButtonScreen.swift in Sources */,
 				9186CC6F2CF5268B00C51C77 /* MySwiftUIKitListsListDragHandleScreen.swift in Sources */,
 				9186CC652CF5226A00C51C77 /* MySwiftUIKitListsListActionScreen.swift in Sources */,

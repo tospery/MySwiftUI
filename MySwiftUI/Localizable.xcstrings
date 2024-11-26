@@ -254,6 +254,9 @@
     "Customized" : {
 
     },
+    "CustomRoundedRectangle" : {
+
+    },
     "Default" : {
 
     },
@@ -264,6 +267,9 @@
 
     },
     "Enter text" : {
+
+    },
+    "FetchedDataView" : {
 
     },
     "footnote - %lf" : {
@@ -455,7 +461,6 @@
       }
     },
     "Preview.Loading" : {
-      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -488,7 +493,6 @@
       }
     },
     "Preview.NoData" : {
-      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -637,6 +641,9 @@
     "TextFieldClearButton" : {
 
     },
+    "TextReplacement" : {
+
+    },
     "title - %lf" : {
 
     },
@@ -710,6 +717,9 @@
 
     },
     "UIColor.tintColor-%@" : {
+
+    },
+    "Views" : {
 
     },
     "ViewShadowStyle" : {
