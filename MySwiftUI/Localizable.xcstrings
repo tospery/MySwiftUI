@@ -16,6 +16,9 @@
     "%lld" : {
 
     },
+    "AlertContext" : {
+
+    },
     "body - %lf" : {
 
     },
@@ -275,10 +278,16 @@
     "footnote - %lf" : {
 
     },
+    "FullScreenCoverContext" : {
+
+    },
     "Growing" : {
 
     },
     "headline - %lf" : {
+
+    },
+    "Hello, world!" : {
 
     },
     "Hello, World!" : {
@@ -387,6 +396,9 @@
 
     },
     "Parchment-4.1.0" : {
+
+    },
+    "Presentation" : {
 
     },
     "Preview.Button" : {
@@ -624,6 +636,18 @@
 
     },
     "Scrolling Views" : {
+
+    },
+    "SheetContext" : {
+
+    },
+    "Show alert" : {
+
+    },
+    "Show cover" : {
+
+    },
+    "Show sheet" : {
 
     },
     "Standard" : {
