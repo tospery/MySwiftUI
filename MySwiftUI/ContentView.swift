@@ -19,7 +19,7 @@ struct ContentView: View {
                 Section("三方库") {
                     NavigationLink("【日志】Pulse-4.2.7") { MyPulseScreen() }
                     NavigationLink("【工具】SwiftUIKit-5.0.0") { MySwiftUIKitScreen() }
-                    NavigationLink("Parchment-4.1.0") { MyParchmentScreen() }
+                    NavigationLink("【分页】Parchment-4.1.0") { MyParchmentScreen() }
                 }
             }
             .navigationTitle("MySwiftUI")
