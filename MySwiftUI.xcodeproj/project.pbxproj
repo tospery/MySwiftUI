@@ -58,6 +58,8 @@
 		9195ADD12CF1CB4800F3C018 /* ScrollingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9195ADC72CF1CB4800F3C018 /* ScrollingView.swift */; };
 		9195ADD32CF1CB5000F3C018 /* MyParchmentScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9195ADD22CF1CB4E00F3C018 /* MyParchmentScreen.swift */; };
 		91B3CC462CF291BC00C85D3F /* UI02FontSystemScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B3CC452CF291BC00C85D3F /* UI02FontSystemScreen.swift */; };
+		91BFBD0E2D092F7F00E780C0 /* SystemEnvironmentScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BFBD0D2D092F7E00E780C0 /* SystemEnvironmentScreen.swift */; };
+		91BFBD112D0931D000E780C0 /* SystemAnchorPreference01Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BFBD102D0931CF00E780C0 /* SystemAnchorPreference01Screen.swift */; };
 		91C465532CF49C440021562B /* UISafeAreaScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C465522CF49C430021562B /* UISafeAreaScreen.swift */; };
 		91C465562CF49D900021562B /* UISafeAreaFullScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C465552CF49D8F0021562B /* UISafeAreaFullScreen.swift */; };
 		91C465582CF49E3C0021562B /* UISafeAreaVerticalScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C465572CF49E3B0021562B /* UISafeAreaVerticalScreen.swift */; };
@@ -121,6 +123,8 @@
 		9195ADC82CF1CB4800F3C018 /* SelectedIndexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedIndexView.swift; sourceTree = "<group>"; };
 		9195ADD22CF1CB4E00F3C018 /* MyParchmentScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyParchmentScreen.swift; sourceTree = "<group>"; };
 		91B3CC452CF291BC00C85D3F /* UI02FontSystemScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI02FontSystemScreen.swift; sourceTree = "<group>"; };
+		91BFBD0D2D092F7E00E780C0 /* SystemEnvironmentScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemEnvironmentScreen.swift; sourceTree = "<group>"; };
+		91BFBD102D0931CF00E780C0 /* SystemAnchorPreference01Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemAnchorPreference01Screen.swift; sourceTree = "<group>"; };
 		91C465522CF49C430021562B /* UISafeAreaScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISafeAreaScreen.swift; sourceTree = "<group>"; };
 		91C465552CF49D8F0021562B /* UISafeAreaFullScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISafeAreaFullScreen.swift; sourceTree = "<group>"; };
 		91C465572CF49E3B0021562B /* UISafeAreaVerticalScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISafeAreaVerticalScreen.swift; sourceTree = "<group>"; };
@@ -235,6 +239,7 @@
 		911768692CF18C0E00252AA2 /* MySwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				91BFBD0B2D092F3900E780C0 /* System */,
 				91E417532CF282BE00FA0C34 /* UI */,
 				9117686F2CF18D1B00252AA2 /* ThirdParty */,
 				911768652CF18C0E00252AA2 /* Preview Content */,
@@ -325,6 +330,31 @@
 				9195ADC82CF1CB4800F3C018 /* SelectedIndexView.swift */,
 			);
 			path = Parchment;
+			sourceTree = "<group>";
+		};
+		91BFBD0B2D092F3900E780C0 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				91BFBD0F2D0931C600E780C0 /* AnchorPreference */,
+				91BFBD0C2D092F5200E780C0 /* Environment */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		91BFBD0C2D092F5200E780C0 /* Environment */ = {
+			isa = PBXGroup;
+			children = (
+				91BFBD0D2D092F7E00E780C0 /* SystemEnvironmentScreen.swift */,
+			);
+			path = Environment;
+			sourceTree = "<group>";
+		};
+		91BFBD0F2D0931C600E780C0 /* AnchorPreference */ = {
+			isa = PBXGroup;
+			children = (
+				91BFBD102D0931CF00E780C0 /* SystemAnchorPreference01Screen.swift */,
+			);
+			path = AnchorPreference;
 			sourceTree = "<group>";
 		};
 		91C465542CF49CE80021562B /* SafeArea */ = {
@@ -516,11 +546,13 @@
 				9186CC712CF5270D00C51C77 /* MySwiftUIKitListsListHeaderScreen.swift in Sources */,
 				911B31102CF4CBBB0037A4B3 /* MySwiftUIKitButtonsStandardScreen.swift in Sources */,
 				9195ADCF2CF1CB4800F3C018 /* InterpolatedView.swift in Sources */,
+				91BFBD0E2D092F7F00E780C0 /* SystemEnvironmentScreen.swift in Sources */,
 				91C4655A2CF49F530021562B /* UISafeAreaKeyboardScreen.swift in Sources */,
 				91048BA62CF53C98003EF90A /* MySwiftUIKitStylesScreen.swift in Sources */,
 				911B310E2CF4CB5B0037A4B3 /* MySwiftUIKitButtonsInitScreen.swift in Sources */,
 				9186CC772CF5291F00C51C77 /* MySwiftUIKitListsListShelfSectionScreen.swift in Sources */,
 				91048BB82CF54F15003EF90A /* MySwiftUIKitFetchedDataViewScreen.swift in Sources */,
+				91BFBD112D0931D000E780C0 /* SystemAnchorPreference01Screen.swift in Sources */,
 				91048BB12CF53FA0003EF90A /* MySwiftUIKitTextFieldClearButtonScreen.swift in Sources */,
 				91048BBD2CF55049003EF90A /* MySwiftUIKitPresentationScreen.swift in Sources */,
 				9186CC6F2CF5268B00C51C77 /* MySwiftUIKitListsListDragHandleScreen.swift in Sources */,

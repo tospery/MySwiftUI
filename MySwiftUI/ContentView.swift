@@ -11,6 +11,10 @@ struct ContentView: View {
     var body: some View {
         NavigationStack {
             Form {
+                Section("系统") {
+                    NavigationLink("环境变量@Environment") { SystemEnvironmentScreen() }
+                    NavigationLink("根据按钮位置显示动态弹窗") { SystemAnchorPreference01Screen() }
+                }
                 Section("界面") {
                     NavigationLink("系统内置的颜色") { UI01ColorSystemScreen() }
                     NavigationLink("内置字体与大小") { UI02FontSystemScreen() }
