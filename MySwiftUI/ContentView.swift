@@ -19,6 +19,7 @@ struct ContentView: View {
                     NavigationLink("系统内置的颜色") { UI01ColorSystemScreen() }
                     NavigationLink("内置字体与大小") { UI02FontSystemScreen() }
                     NavigationLink("演示ignoresSafeArea") { UISafeAreaScreen() }
+                    NavigationLink("切换暗黑模式") { UIColor01Screen() }
                 }
                 Section("三方库") {
                     NavigationLink("【日志】Pulse-4.2.7") { MyPulseScreen() }

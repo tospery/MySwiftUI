@@ -33,6 +33,7 @@
 		911B310B2CF4CAF90037A4B3 /* MySwiftUIKitButtonsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911B310A2CF4CAF80037A4B3 /* MySwiftUIKitButtonsScreen.swift */; };
 		911B310E2CF4CB5B0037A4B3 /* MySwiftUIKitButtonsInitScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911B310D2CF4CB590037A4B3 /* MySwiftUIKitButtonsInitScreen.swift */; };
 		911B31102CF4CBBB0037A4B3 /* MySwiftUIKitButtonsStandardScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911B310F2CF4CBBA0037A4B3 /* MySwiftUIKitButtonsStandardScreen.swift */; };
+		9137017A2D1490870018B350 /* UIColor01Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913701792D1490860018B350 /* UIColor01Screen.swift */; };
 		9186CC602CF5215D00C51C77 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 9186CC5F2CF5215D00C51C77 /* Localizable.xcstrings */; };
 		9186CC632CF5223D00C51C77 /* MySwiftUIKitListsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9186CC622CF5223C00C51C77 /* MySwiftUIKitListsScreen.swift */; };
 		9186CC652CF5226A00C51C77 /* MySwiftUIKitListsListActionScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9186CC642CF5226900C51C77 /* MySwiftUIKitListsListActionScreen.swift */; };
@@ -98,6 +99,7 @@
 		911B310A2CF4CAF80037A4B3 /* MySwiftUIKitButtonsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySwiftUIKitButtonsScreen.swift; sourceTree = "<group>"; };
 		911B310D2CF4CB590037A4B3 /* MySwiftUIKitButtonsInitScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySwiftUIKitButtonsInitScreen.swift; sourceTree = "<group>"; };
 		911B310F2CF4CBBA0037A4B3 /* MySwiftUIKitButtonsStandardScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySwiftUIKitButtonsStandardScreen.swift; sourceTree = "<group>"; };
+		913701792D1490860018B350 /* UIColor01Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor01Screen.swift; sourceTree = "<group>"; };
 		9186CC5F2CF5215D00C51C77 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		9186CC622CF5223C00C51C77 /* MySwiftUIKitListsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySwiftUIKitListsScreen.swift; sourceTree = "<group>"; };
 		9186CC642CF5226900C51C77 /* MySwiftUIKitListsListActionScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySwiftUIKitListsListActionScreen.swift; sourceTree = "<group>"; };
@@ -295,6 +297,14 @@
 			path = Buttons;
 			sourceTree = "<group>";
 		};
+		913701782D14906B0018B350 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				913701792D1490860018B350 /* UIColor01Screen.swift */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
 		9186CC612CF5222800C51C77 /* Lists */ = {
 			isa = PBXGroup;
 			children = (
@@ -379,6 +389,7 @@
 		91E417532CF282BE00FA0C34 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				913701782D14906B0018B350 /* Color */,
 				91C465542CF49CE80021562B /* SafeArea */,
 				91B3CC452CF291BC00C85D3F /* UI02FontSystemScreen.swift */,
 				91E417562CF2832B00FA0C34 /* UI01ColorSystemScreen.swift */,
@@ -548,6 +559,7 @@
 				9195ADCF2CF1CB4800F3C018 /* InterpolatedView.swift in Sources */,
 				91BFBD0E2D092F7F00E780C0 /* SystemEnvironmentScreen.swift in Sources */,
 				91C4655A2CF49F530021562B /* UISafeAreaKeyboardScreen.swift in Sources */,
+				9137017A2D1490870018B350 /* UIColor01Screen.swift in Sources */,
 				91048BA62CF53C98003EF90A /* MySwiftUIKitStylesScreen.swift in Sources */,
 				911B310E2CF4CB5B0037A4B3 /* MySwiftUIKitButtonsInitScreen.swift in Sources */,
 				9186CC772CF5291F00C51C77 /* MySwiftUIKitListsListShelfSectionScreen.swift in Sources */,
