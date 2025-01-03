@@ -19,7 +19,7 @@ struct MySwiftUIApp: App {
                 .onOpenURL { url in
                     print("onOpenURL: \(url)")
                 }
-                .environment(\.colorScheme, .dark)
+                .environment(\.colorScheme, .light)
         }
     }
 }

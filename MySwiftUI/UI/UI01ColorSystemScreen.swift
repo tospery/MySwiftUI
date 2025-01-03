@@ -150,7 +150,8 @@ struct UI01ColorSystemScreen: View {
         .listStyle(.plain)
         .scrollContentBackground(.hidden)
         .navigationTitle("系统内置的颜色")
-        .preferredColorScheme(isDarkMode ? .dark : .light)
+        // .preferredColorScheme(isDarkMode ? .dark : .light)
+        .environment(\.colorScheme, isDarkMode ? .dark : .light)
         .toolbar {
             ToolbarItem(placement: .navigationBarTrailing) {
                 Button(action: {
