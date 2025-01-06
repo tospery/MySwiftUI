@@ -176,18 +176,48 @@ code_sign_if_enabled() {
 }
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/CombineExt/CombineExt.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/DeviceKit/DeviceKit.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/FCUUID/FCUUID.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/HiBase/HiBase.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/HiCore/HiCore.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/HiNet/HiNet.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/HiResource/HiResource.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/HiSwiftUI/HiSwiftUI.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Moya/Moya.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Parchment/Parchment.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/PulseCore/Pulse.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/PulseUI/PulseUI.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Refresh-Hi/Refresh_Hi.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SwiftUIKit-Hi/SwiftUIKit_Hi.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SwifterSwift/SwifterSwift.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SwiftyBeaver/SwiftyBeaver.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/UICKeyChainStore/UICKeyChainStore.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/CombineExt/CombineExt.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/DeviceKit/DeviceKit.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/FCUUID/FCUUID.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/HiBase/HiBase.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/HiCore/HiCore.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/HiNet/HiNet.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/HiResource/HiResource.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/HiSwiftUI/HiSwiftUI.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Moya/Moya.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Parchment/Parchment.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/PulseCore/Pulse.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/PulseUI/PulseUI.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Refresh-Hi/Refresh_Hi.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SwiftUIKit-Hi/SwiftUIKit_Hi.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SwifterSwift/SwifterSwift.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SwiftyBeaver/SwiftyBeaver.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/UICKeyChainStore/UICKeyChainStore.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

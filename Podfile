@@ -4,9 +4,14 @@ platform :ios, '16.0'
 use_frameworks!
 
 target 'MySwiftUI' do
+  pod 'HiBase', :path => '../HiBase'
+  pod 'HiCore', :path => '../HiCore'
+  pod 'HiNet/Combine', :path => '../HiNet'
+  pod 'HiLog/SwiftyBeaver', :path => '../HiLog'
+  pod 'HiResource', :path => '../HiResource'
+  pod 'HiSwiftUI', :path => '../HiSwiftUI'
+  
   pod 'Parchment', '~> 4.0'
-  pod 'SwifterSwift', '~> 7.0.0'
-  pod 'SwiftUIKit-Hi', '~> 5.0.0'
   pod 'PulseCore', '~> 4.2.7'
   pod 'PulseUI', '~> 4.2.7'
 

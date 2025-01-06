@@ -2,13 +2,13 @@
 
 // swiftlint:disable identifier_name
 
-#if canImport(QuartzCore) && !os(watchOS)
+#if canImport(QuartzCore)
 
 import QuartzCore
 
 // MARK: - Equatable
 
-extension CATransform3D: Swift.Equatable {
+extension CATransform3D: Equatable {
     // swiftlint:disable missing_swifterswift_prefix
 
     /// Returns a Boolean value indicating whether two values are equal.

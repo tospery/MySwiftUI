@@ -1,63 +1,138 @@
 PODS:
+  - Alamofire (5.10.2)
+  - CombineExt (1.8.0)
+  - DeviceKit (5.5.0)
+  - FCUUID (1.3.1):
+    - UICKeyChainStore (~> 2.1.0)
+  - HiBase (1.0.1):
+    - ObjectMapper (~> 4.0)
+    - SwifterSwift/Foundation (~> 6.0)
+    - SwifterSwift/SwiftStdlib (~> 6.0)
+  - HiCore (1.0.8):
+    - DeviceKit (~> 5.0)
+    - FCUUID (~> 1.0)
+    - HiBase (~> 1.0)
+    - SwifterSwift/CoreGraphics (~> 6.0)
+    - SwifterSwift/UIKit (~> 6.0)
+    - SwiftyBeaver (~> 1.0)
+  - HiNet/Combine (1.0.4):
+    - HiNet/Core
+    - Moya/Combine (~> 15.0)
+  - HiNet/Core (1.0.4):
+    - Moya/Core (~> 15.0)
+    - ObjectMapper (~> 4.0)
+  - HiResource (1.0.1)
+  - HiSwiftUI (1.0.1):
+    - CombineExt (~> 1.0)
+    - HiCore (~> 1.0)
+    - HiNet/Combine (~> 1.0)
+    - HiResource (~> 1.0)
+    - Kingfisher (~> 7.0)
+    - Refresh-Hi (~> 0.2)
+    - SwifterSwift (~> 6.0)
+    - SwiftUIKit-Hi (~> 5.0.0)
+  - Kingfisher (7.12.0)
+  - Moya/Combine (15.0.0):
+    - Moya/Core
+  - Moya/Core (15.0.0):
+    - Alamofire (~> 5.0)
+  - ObjectMapper (4.4.2)
   - Parchment (4.1.0)
   - PulseCore (4.2.7)
   - PulseUI (4.2.7):
     - PulseCore (~> 4.2)
-  - SwifterSwift (7.0.0):
-    - SwifterSwift/AppKit (= 7.0.0)
-    - SwifterSwift/CoreAnimation (= 7.0.0)
-    - SwifterSwift/CoreGraphics (= 7.0.0)
-    - SwifterSwift/CoreLocation (= 7.0.0)
-    - SwifterSwift/CryptoKit (= 7.0.0)
-    - SwifterSwift/Dispatch (= 7.0.0)
-    - SwifterSwift/Foundation (= 7.0.0)
-    - SwifterSwift/HealthKit (= 7.0.0)
-    - SwifterSwift/MapKit (= 7.0.0)
-    - SwifterSwift/SceneKit (= 7.0.0)
-    - SwifterSwift/SpriteKit (= 7.0.0)
-    - SwifterSwift/StoreKit (= 7.0.0)
-    - SwifterSwift/SwiftStdlib (= 7.0.0)
-    - SwifterSwift/UIKit (= 7.0.0)
-    - SwifterSwift/WebKit (= 7.0.0)
-  - SwifterSwift/AppKit (7.0.0)
-  - SwifterSwift/CoreAnimation (7.0.0)
-  - SwifterSwift/CoreGraphics (7.0.0)
-  - SwifterSwift/CoreLocation (7.0.0)
-  - SwifterSwift/CryptoKit (7.0.0)
-  - SwifterSwift/Dispatch (7.0.0)
-  - SwifterSwift/Foundation (7.0.0)
-  - SwifterSwift/HealthKit (7.0.0)
-  - SwifterSwift/MapKit (7.0.0)
-  - SwifterSwift/SceneKit (7.0.0)
-  - SwifterSwift/SpriteKit (7.0.0)
-  - SwifterSwift/StoreKit (7.0.0)
-  - SwifterSwift/SwiftStdlib (7.0.0)
-  - SwifterSwift/UIKit (7.0.0)
-  - SwifterSwift/WebKit (7.0.0)
+  - Refresh-Hi (0.2.1)
+  - SwifterSwift (6.2.0):
+    - SwifterSwift/AppKit (= 6.2.0)
+    - SwifterSwift/Combine (= 6.2.0)
+    - SwifterSwift/CoreAnimation (= 6.2.0)
+    - SwifterSwift/CoreGraphics (= 6.2.0)
+    - SwifterSwift/CoreLocation (= 6.2.0)
+    - SwifterSwift/CryptoKit (= 6.2.0)
+    - SwifterSwift/Dispatch (= 6.2.0)
+    - SwifterSwift/Foundation (= 6.2.0)
+    - SwifterSwift/HealthKit (= 6.2.0)
+    - SwifterSwift/MapKit (= 6.2.0)
+    - SwifterSwift/SceneKit (= 6.2.0)
+    - SwifterSwift/SpriteKit (= 6.2.0)
+    - SwifterSwift/StoreKit (= 6.2.0)
+    - SwifterSwift/SwiftStdlib (= 6.2.0)
+    - SwifterSwift/UIKit (= 6.2.0)
+    - SwifterSwift/WebKit (= 6.2.0)
+  - SwifterSwift/AppKit (6.2.0)
+  - SwifterSwift/Combine (6.2.0)
+  - SwifterSwift/CoreAnimation (6.2.0)
+  - SwifterSwift/CoreGraphics (6.2.0)
+  - SwifterSwift/CoreLocation (6.2.0)
+  - SwifterSwift/CryptoKit (6.2.0)
+  - SwifterSwift/Dispatch (6.2.0)
+  - SwifterSwift/Foundation (6.2.0)
+  - SwifterSwift/HealthKit (6.2.0)
+  - SwifterSwift/MapKit (6.2.0)
+  - SwifterSwift/SceneKit (6.2.0)
+  - SwifterSwift/SpriteKit (6.2.0)
+  - SwifterSwift/StoreKit (6.2.0)
+  - SwifterSwift/SwiftStdlib (6.2.0)
+  - SwifterSwift/UIKit (6.2.0)
+  - SwifterSwift/WebKit (6.2.0)
   - SwiftUIKit-Hi (5.0.0.1)
+  - SwiftyBeaver (1.9.6)
+  - UICKeyChainStore (2.1.2)
 
 DEPENDENCIES:
+  - HiSwiftUI (from `../HiSwiftUI`)
   - Parchment (~> 4.0)
   - PulseCore (~> 4.2.7)
   - PulseUI (~> 4.2.7)
-  - SwifterSwift (~> 7.0.0)
-  - SwiftUIKit-Hi (~> 5.0.0)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - CombineExt
+    - DeviceKit
+    - FCUUID
+    - HiBase
+    - HiCore
+    - HiNet
+    - HiResource
+    - Kingfisher
+    - Moya
+    - ObjectMapper
     - Parchment
     - PulseCore
     - PulseUI
+    - Refresh-Hi
     - SwifterSwift
     - SwiftUIKit-Hi
+    - SwiftyBeaver
+    - UICKeyChainStore
+
+EXTERNAL SOURCES:
+  HiSwiftUI:
+    :path: "../HiSwiftUI"
 
 SPEC CHECKSUMS:
+  Alamofire: 7193b3b92c74a07f85569e1a6c4f4237291e7496
+  CombineExt: c4daa97ef75754d8ef319bd79edeef82652f3eea
+  DeviceKit: d83e38ca196a4ebf0cc5f37d6f0316a24b794d5b
+  FCUUID: bb054fc90cd7cd99320f9f6ff8e130fe607fba05
+  HiBase: a15c3263370f3e6c45684f982a04eaadf49eea1a
+  HiCore: 311b6ab286667310b7f1d88e2c2cdcc9438cec0e
+  HiNet: af06211ebee0eba46a58bc7e48016228d1891d97
+  HiResource: 231e1e2a84a8589c78b4bf6ff8546fc68136deba
+  HiSwiftUI: c77b5cb823657c1c33aadd04da9f37c85bd4b70f
+  Kingfisher: 53a10ea35051a436b5fb626ca2dd8f3144d755e9
+  Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  ObjectMapper: e6e4d91ff7f2861df7aecc536c92d8363f4c9677
   Parchment: fdea264f5de6d73b0b69a31c686fab762c78ed2f
   PulseCore: 812f6814b174a27d8b99eced5df7da12b0d8a700
   PulseUI: ae92dca925635b516600c0550c2a3079c0b28158
-  SwifterSwift: e9caf990fc72e835432280755d1f4c43f2a483d5
+  Refresh-Hi: ba5a5d5008318a2689036ea66cb1e4f3958c3162
+  SwifterSwift: dd00873fb09cde19da88bdb2878f9fe70fe27b0f
   SwiftUIKit-Hi: 43b5df4f366354f37deacfe77477113f6b4f47c6
+  SwiftyBeaver: c8241b4745aa269a78ca5a022532c6915e948536
+  UICKeyChainStore: 85db518bb1d294366d15ec9b92a416c4e670518f
 
-PODFILE CHECKSUM: f4c0b1f93977ff3cc83c9641ec4687c21e4da1b5
+PODFILE CHECKSUM: 7bd903f208af5a7f33d8f7b99f46db616622241f
 
 COCOAPODS: 1.16.2

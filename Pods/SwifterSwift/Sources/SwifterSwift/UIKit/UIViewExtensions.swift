@@ -51,7 +51,7 @@ public extension UIView {
     }
 
     /// SwifterSwift: Add gradient directions
-    struct GradientDirection: Sendable {
+    struct GradientDirection {
         public static let topToBottom = GradientDirection(startPoint: CGPoint(x: 0.5, y: 0.0),
                                                           endPoint: CGPoint(x: 0.5, y: 1.0))
         public static let bottomToTop = GradientDirection(startPoint: CGPoint(x: 0.5, y: 1.0),
@@ -385,7 +385,7 @@ public extension UIView {
 
     /// SwifterSwift: Remove all gesture recognizers from view.
     func removeGestureRecognizers() {
-        try? gestureRecognizers?.forEach(removeGestureRecognizer)
+        gestureRecognizers?.forEach(removeGestureRecognizer)
     }
 
     /// SwifterSwift: Attaches gesture recognizers to the view. Attaching gesture recognizers to a view defines the
@@ -487,11 +487,12 @@ public extension UIView {
         animationType: ShakeAnimationType = .easeOut,
         completion: (() -> Void)? = nil) {
         CATransaction.begin()
-        let animation = switch direction {
+        let animation: CAKeyframeAnimation
+        switch direction {
         case .horizontal:
-            CAKeyframeAnimation(keyPath: "transform.translation.x")
+            animation = CAKeyframeAnimation(keyPath: "transform.translation.x")
         case .vertical:
-            CAKeyframeAnimation(keyPath: "transform.translation.y")
+            animation = CAKeyframeAnimation(keyPath: "transform.translation.y")
         }
         switch animationType {
         case .linear:
@@ -568,7 +569,7 @@ public extension UIView {
     func fillToSuperview() {
         // https://videos.letsbuildthatapp.com/
         translatesAutoresizingMaskIntoConstraints = false
-        if let superview {
+        if let superview = superview {
             let left = leftAnchor.constraint(equalTo: superview.leftAnchor)
             let right = rightAnchor.constraint(equalTo: superview.rightAnchor)
             let top = topAnchor.constraint(equalTo: superview.topAnchor)
@@ -609,19 +610,19 @@ public extension UIView {
 
         var anchors = [NSLayoutConstraint]()
 
-        if let top {
+        if let top = top {
             anchors.append(topAnchor.constraint(equalTo: top, constant: topConstant))
         }
 
-        if let left {
+        if let left = left {
             anchors.append(leftAnchor.constraint(equalTo: left, constant: leftConstant))
         }
 
-        if let bottom {
+        if let bottom = bottom {
             anchors.append(bottomAnchor.constraint(equalTo: bottom, constant: -bottomConstant))
         }
 
-        if let right {
+        if let right = right {
             anchors.append(rightAnchor.constraint(equalTo: right, constant: -rightConstant))
         }
 

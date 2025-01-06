@@ -17,12 +17,13 @@ public extension NSImage {
         guard imageHeight > 0 else { return self }
 
         // Get ratio (landscape or portrait)
-        let ratio: CGFloat = if imageWidth > imageHeight {
+        let ratio: CGFloat
+        if imageWidth > imageHeight {
             // Landscape
-            maxSize.width / imageWidth
+            ratio = maxSize.width / imageWidth
         } else {
             // Portrait
-            maxSize.height / imageHeight
+            ratio = maxSize.height / imageHeight
         }
 
         // Calculate new size based on the ratio

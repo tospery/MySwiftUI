@@ -1,6 +1,21 @@
 ${PODS_ROOT}/Target Support Files/Pods-MySwiftUI/Pods-MySwiftUI-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/CombineExt/CombineExt.framework
+${BUILT_PRODUCTS_DIR}/DeviceKit/DeviceKit.framework
+${BUILT_PRODUCTS_DIR}/FCUUID/FCUUID.framework
+${BUILT_PRODUCTS_DIR}/HiBase/HiBase.framework
+${BUILT_PRODUCTS_DIR}/HiCore/HiCore.framework
+${BUILT_PRODUCTS_DIR}/HiNet/HiNet.framework
+${BUILT_PRODUCTS_DIR}/HiResource/HiResource.framework
+${BUILT_PRODUCTS_DIR}/HiSwiftUI/HiSwiftUI.framework
+${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework
+${BUILT_PRODUCTS_DIR}/Moya/Moya.framework
+${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework
 ${BUILT_PRODUCTS_DIR}/Parchment/Parchment.framework
 ${BUILT_PRODUCTS_DIR}/PulseCore/Pulse.framework
 ${BUILT_PRODUCTS_DIR}/PulseUI/PulseUI.framework
+${BUILT_PRODUCTS_DIR}/Refresh-Hi/Refresh_Hi.framework
 ${BUILT_PRODUCTS_DIR}/SwiftUIKit-Hi/SwiftUIKit_Hi.framework
 ${BUILT_PRODUCTS_DIR}/SwifterSwift/SwifterSwift.framework
+${BUILT_PRODUCTS_DIR}/SwiftyBeaver/SwiftyBeaver.framework
+${BUILT_PRODUCTS_DIR}/UICKeyChainStore/UICKeyChainStore.framework

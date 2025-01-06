@@ -3,7 +3,7 @@
 #if canImport(CoreGraphics)
 import CoreGraphics
 
-#if canImport(QuartzCore) && !os(watchOS)
+#if canImport(QuartzCore)
 
 import QuartzCore
 
