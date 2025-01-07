@@ -12,9 +12,13 @@ PODS:
     - DeviceKit (~> 5.0)
     - FCUUID (~> 1.0)
     - HiBase (~> 1.0)
+    - HiLog/Core (~> 1.0)
     - SwifterSwift/CoreGraphics (~> 6.0)
     - SwifterSwift/UIKit (~> 6.0)
-    - SwiftyBeaver (~> 1.0)
+  - HiLog/Core (1.0.1)
+  - HiLog/SwiftyBeaver (1.0.1):
+    - HiLog/Core
+    - SwiftyBeaver (~> 2.0)
   - HiNet/Combine (1.0.4):
     - HiNet/Core
     - Moya/Combine (~> 15.0)
@@ -76,10 +80,15 @@ PODS:
   - SwifterSwift/UIKit (6.2.0)
   - SwifterSwift/WebKit (6.2.0)
   - SwiftUIKit-Hi (5.0.0.1)
-  - SwiftyBeaver (1.9.6)
+  - SwiftyBeaver (2.1.1)
   - UICKeyChainStore (2.1.2)
 
 DEPENDENCIES:
+  - HiBase (from `../HiBase`)
+  - HiCore (from `../HiCore`)
+  - HiLog/SwiftyBeaver (from `../HiLog`)
+  - HiNet/Combine (from `../HiNet`)
+  - HiResource (from `../HiResource`)
   - HiSwiftUI (from `../HiSwiftUI`)
   - Parchment (~> 4.0)
   - PulseCore (~> 4.2.7)
@@ -91,10 +100,6 @@ SPEC REPOS:
     - CombineExt
     - DeviceKit
     - FCUUID
-    - HiBase
-    - HiCore
-    - HiNet
-    - HiResource
     - Kingfisher
     - Moya
     - ObjectMapper
@@ -108,6 +113,16 @@ SPEC REPOS:
     - UICKeyChainStore
 
 EXTERNAL SOURCES:
+  HiBase:
+    :path: "../HiBase"
+  HiCore:
+    :path: "../HiCore"
+  HiLog:
+    :path: "../HiLog"
+  HiNet:
+    :path: "../HiNet"
+  HiResource:
+    :path: "../HiResource"
   HiSwiftUI:
     :path: "../HiSwiftUI"
 
@@ -117,7 +132,8 @@ SPEC CHECKSUMS:
   DeviceKit: d83e38ca196a4ebf0cc5f37d6f0316a24b794d5b
   FCUUID: bb054fc90cd7cd99320f9f6ff8e130fe607fba05
   HiBase: a15c3263370f3e6c45684f982a04eaadf49eea1a
-  HiCore: 311b6ab286667310b7f1d88e2c2cdcc9438cec0e
+  HiCore: c3b18b2588b9e61f5bed7a5a6e04496fa3cb5b07
+  HiLog: 0f8d20ed7466f5bb47c07b1e7c993b67b35b845e
   HiNet: af06211ebee0eba46a58bc7e48016228d1891d97
   HiResource: 231e1e2a84a8589c78b4bf6ff8546fc68136deba
   HiSwiftUI: c77b5cb823657c1c33aadd04da9f37c85bd4b70f
@@ -130,9 +146,9 @@ SPEC CHECKSUMS:
   Refresh-Hi: ba5a5d5008318a2689036ea66cb1e4f3958c3162
   SwifterSwift: dd00873fb09cde19da88bdb2878f9fe70fe27b0f
   SwiftUIKit-Hi: 43b5df4f366354f37deacfe77477113f6b4f47c6
-  SwiftyBeaver: c8241b4745aa269a78ca5a022532c6915e948536
+  SwiftyBeaver: ade157e4f857812e7d7f15f2e3396bb8733f8a1c
   UICKeyChainStore: 85db518bb1d294366d15ec9b92a416c4e670518f
 
-PODFILE CHECKSUM: 7bd903f208af5a7f33d8f7b99f46db616622241f
+PODFILE CHECKSUM: 5682f9ab2f9975d743f678e0a9ba69343d3fc17a
 
 COCOAPODS: 1.16.2

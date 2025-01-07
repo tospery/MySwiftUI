@@ -5,6 +5,7 @@ ${BUILT_PRODUCTS_DIR}/DeviceKit/DeviceKit.framework
 ${BUILT_PRODUCTS_DIR}/FCUUID/FCUUID.framework
 ${BUILT_PRODUCTS_DIR}/HiBase/HiBase.framework
 ${BUILT_PRODUCTS_DIR}/HiCore/HiCore.framework
+${BUILT_PRODUCTS_DIR}/HiLog/HiLog.framework
 ${BUILT_PRODUCTS_DIR}/HiNet/HiNet.framework
 ${BUILT_PRODUCTS_DIR}/HiResource/HiResource.framework
 ${BUILT_PRODUCTS_DIR}/HiSwiftUI/HiSwiftUI.framework
