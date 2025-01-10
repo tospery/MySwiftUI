@@ -33,10 +33,10 @@ struct ContentView: View {
     @ViewBuilder
     func uiSection() -> some View {
         Section("界面") {
-            NavigationLink("系统内置的颜色") { UI01ColorSystemScreen() }
-            NavigationLink("内置字体与大小") { UI02FontSystemScreen() }
-            NavigationLink("演示ignoresSafeArea") { UISafeAreaScreen() }
-            NavigationLink("切换暗黑模式") { UIColor01Screen() }
+//            NavigationLink("系统内置的颜色") { UI01ColorSystemScreen() }
+//            NavigationLink("内置字体与大小") { UI02FontSystemScreen() }
+//            NavigationLink("演示ignoresSafeArea") { UISafeAreaScreen() }
+//            NavigationLink("切换暗黑模式") { UIColor01Screen() }
         }
     }
     
