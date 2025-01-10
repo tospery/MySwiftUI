@@ -6,11 +6,22 @@
 //
 
 import SwiftUI
+import ObjectMapper
+import HiBase
+import HiSwiftUI
 
 @main
 struct MySwiftUIApp: App {
     
     @AppStorage("isDarkMode") private var isDarkMode = false
+    
+    init() {
+        Appdata.shared.inject(Profile.init())
+        Runtime.shared.work()
+        Library.shared.setup()
+        Appearance.shared.config()
+        logEnvironment()
+    }
     
     var body: some Scene {
         WindowGroup {
@@ -22,4 +33,34 @@ struct MySwiftUIApp: App {
                 .environment(\.colorScheme, .light)
         }
     }
+}
+
+struct User: UserType {
+    
+    var id = ""
+    var username: String?
+    var nickname: String?
+    var avatar: String?
+    
+    init() { }
+    init?(map: ObjectMapper.Map) { }
+    mutating func mapping(map: ObjectMapper.Map) { }
+}
+
+struct Profile: ProfileType {
+    
+    var id = ""
+    var isDark: Bool?
+    var accentColor: String = Color.red.hexString
+    var localization: HiBase.Localization?
+    var user: User?
+    
+    public var loginedUser: (any HiBase.UserType)? {
+        get { return user }
+        set { user = newValue as? User }
+    }
+    
+    init() { }
+    init?(map: ObjectMapper.Map) { }
+    mutating func mapping(map: ObjectMapper.Map) { }
 }
