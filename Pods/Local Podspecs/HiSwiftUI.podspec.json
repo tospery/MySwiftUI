@@ -37,6 +37,9 @@
     "HiResource": [
       "~> 1.0"
     ],
+    "SFSafeSymbols": [
+      "~> 5.0"
+    ],
     "CombineExt": [
       "~> 1.0"
     ],

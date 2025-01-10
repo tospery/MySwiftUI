@@ -33,6 +33,7 @@ PODS:
     - HiResource (~> 1.0)
     - Kingfisher (~> 7.0)
     - Refresh-Hi (~> 0.2)
+    - SFSafeSymbols (~> 5.0)
     - SwifterSwift (~> 6.0)
     - SwiftUIKit-Hi (~> 5.0.0)
   - Kingfisher (7.12.0)
@@ -46,6 +47,7 @@ PODS:
   - PulseUI (4.2.7):
     - PulseCore (~> 4.2)
   - Refresh-Hi (0.2.1)
+  - SFSafeSymbols (5.3.0)
   - SwifterSwift (6.2.0):
     - SwifterSwift/AppKit (= 6.2.0)
     - SwifterSwift/Combine (= 6.2.0)
@@ -107,6 +109,7 @@ SPEC REPOS:
     - PulseCore
     - PulseUI
     - Refresh-Hi
+    - SFSafeSymbols
     - SwifterSwift
     - SwiftUIKit-Hi
     - SwiftyBeaver
@@ -136,7 +139,7 @@ SPEC CHECKSUMS:
   HiLog: 0f8d20ed7466f5bb47c07b1e7c993b67b35b845e
   HiNet: af06211ebee0eba46a58bc7e48016228d1891d97
   HiResource: 231e1e2a84a8589c78b4bf6ff8546fc68136deba
-  HiSwiftUI: c77b5cb823657c1c33aadd04da9f37c85bd4b70f
+  HiSwiftUI: 36c20b796f437681811e358ba635167745e452e5
   Kingfisher: 53a10ea35051a436b5fb626ca2dd8f3144d755e9
   Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
   ObjectMapper: e6e4d91ff7f2861df7aecc536c92d8363f4c9677
@@ -144,6 +147,7 @@ SPEC CHECKSUMS:
   PulseCore: 812f6814b174a27d8b99eced5df7da12b0d8a700
   PulseUI: ae92dca925635b516600c0550c2a3079c0b28158
   Refresh-Hi: ba5a5d5008318a2689036ea66cb1e4f3958c3162
+  SFSafeSymbols: c0244d55ef543c7b2c01f3af2d3d2dd9e26dd00c
   SwifterSwift: dd00873fb09cde19da88bdb2878f9fe70fe27b0f
   SwiftUIKit-Hi: 43b5df4f366354f37deacfe77477113f6b4f47c6
   SwiftyBeaver: ade157e4f857812e7d7f15f2e3396bb8733f8a1c

@@ -16,6 +16,7 @@ ${BUILT_PRODUCTS_DIR}/Parchment/Parchment.framework
 ${BUILT_PRODUCTS_DIR}/PulseCore/Pulse.framework
 ${BUILT_PRODUCTS_DIR}/PulseUI/PulseUI.framework
 ${BUILT_PRODUCTS_DIR}/Refresh-Hi/Refresh_Hi.framework
+${BUILT_PRODUCTS_DIR}/SFSafeSymbols/SFSafeSymbols.framework
 ${BUILT_PRODUCTS_DIR}/SwiftUIKit-Hi/SwiftUIKit_Hi.framework
 ${BUILT_PRODUCTS_DIR}/SwifterSwift/SwifterSwift.framework
 ${BUILT_PRODUCTS_DIR}/SwiftyBeaver/SwiftyBeaver.framework
