@@ -26,6 +26,9 @@ struct MySwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .onReceive(NotificationCenter.default.publisher(for: UIApplication.didBecomeActiveNotification)) { _ in
+                    logEnvironment()
+                }
                 .preferredColorScheme(isDarkMode ? .dark : .light)
                 .onOpenURL { url in
                     print("onOpenURL: \(url)")
