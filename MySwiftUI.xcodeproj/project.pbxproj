@@ -24,6 +24,7 @@
 		91048BBF2CF55111003EF90A /* MySwiftUIKitAlertContextScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91048BBE2CF55110003EF90A /* MySwiftUIKitAlertContextScreen.swift */; };
 		91048BC12CF551DD003EF90A /* MySwiftUIKitFullScreenCoverContextScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91048BC02CF551DD003EF90A /* MySwiftUIKitFullScreenCoverContextScreen.swift */; };
 		91048BC32CF55255003EF90A /* MySwiftUIKitSheetContextScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91048BC22CF55255003EF90A /* MySwiftUIKitSheetContextScreen.swift */; };
+		9109DC9F2D312914005D7DB0 /* UI01BadgeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9109DC9E2D312913005D7DB0 /* UI01BadgeScreen.swift */; };
 		9117686A2CF18C0E00252AA2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911768672CF18C0E00252AA2 /* ContentView.swift */; };
 		9117686B2CF18C0E00252AA2 /* MySwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911768682CF18C0E00252AA2 /* MySwiftUIApp.swift */; };
 		9117686C2CF18C0E00252AA2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 911768642CF18C0E00252AA2 /* Preview Assets.xcassets */; };
@@ -89,6 +90,7 @@
 		91048BBE2CF55110003EF90A /* MySwiftUIKitAlertContextScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySwiftUIKitAlertContextScreen.swift; sourceTree = "<group>"; };
 		91048BC02CF551DD003EF90A /* MySwiftUIKitFullScreenCoverContextScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySwiftUIKitFullScreenCoverContextScreen.swift; sourceTree = "<group>"; };
 		91048BC22CF55255003EF90A /* MySwiftUIKitSheetContextScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySwiftUIKitSheetContextScreen.swift; sourceTree = "<group>"; };
+		9109DC9E2D312913005D7DB0 /* UI01BadgeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI01BadgeScreen.swift; sourceTree = "<group>"; };
 		911768532CF18C0800252AA2 /* MySwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		911768642CF18C0E00252AA2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		911768662CF18C0E00252AA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -391,6 +393,7 @@
 		91E417532CF282BE00FA0C34 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				9109DC9E2D312913005D7DB0 /* UI01BadgeScreen.swift */,
 				913701782D14906B0018B350 /* Color */,
 				91C465542CF49CE80021562B /* SafeArea */,
 			);
@@ -531,6 +534,7 @@
 				91048BA32CF53B9B003EF90A /* MySwiftUIKitNavigationLinkArrowScreen.swift in Sources */,
 				9186CC632CF5223D00C51C77 /* MySwiftUIKitListsScreen.swift in Sources */,
 				91048BB62CF54EC2003EF90A /* MySwiftUIKitCustomRoundedRectangleScreen.swift in Sources */,
+				9109DC9F2D312914005D7DB0 /* UI01BadgeScreen.swift in Sources */,
 				9195ADC92CF1CB4800F3C018 /* LifecycleView.swift in Sources */,
 				91048BAB2CF53DD0003EF90A /* MySwiftUIKitTextScreen.swift in Sources */,
 				9195ADCA2CF1CB4800F3C018 /* CustomizedView.swift in Sources */,
